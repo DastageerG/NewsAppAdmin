@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NewsAppAdmin</string>
+    <string name="log_in">Log In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="don_t_have_an_account">Don\'t have An Account ?</string>
+    <string name="create_account">Create Account</string>
+    <string name="name">Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="number">Number</string>
+    <string name="address">Address</string>
+    <string name="title">Post title</string>
+    <string name="image_description">image description</string>
+    <string name="post_description">Post Description</string>
+    <string name="post_title">Post Title</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home.UserDetailsActivity">
+    <ProgressBar
+        android:id="@+id/progressBarUserDetailsActivity"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/ic_baseline_person_24"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout"
+            >
+
+            <ImageView
+                android:id="@+id/imageViewUserDetailsActivityCall"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:src="@drawable/ic_baseline_call_24" />
+
+            <ImageView
+                android:id="@+id/imageViewUserDetailsActivityMessage"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:src="@drawable/ic_baseline_message_24" />
+
+            <ImageView
+                android:id="@+id/imageViewUserDetailsActivityEmail"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:src="@drawable/ic_baseline_email_24" />
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/textViewUserDetailsActivityName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_below="@id/linearLayout"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="26sp"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold"
+            />
+    <TextView
+        android:id="@+id/textViewUserDetailsActivityContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:layout_below="@id/textViewUserDetailsActivityName"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="22sp"
+        android:textColor="@color/colorBlack"
+        />
+    <TextView
+        android:id="@+id/textViewUserDetailsActivityEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_below="@id/textViewUserDetailsActivityContact"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="22sp"
+        android:textColor="@color/colorBlack"
+        />
+    <TextView
+        android:id="@+id/textViewUserDetailsActivityAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:layout_below="@id/textViewUserDetailsActivityEmail"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="22sp"
+        android:textColor="@color/colorBlack"
+        />
+
+
+
+
+
+</RelativeLayout>
